@@ -16,8 +16,8 @@ mongoose.connect(
 );
 
 // Import routers
-const authRouter = require('./routers/authRouter');
-const postRouter = require('./routers/postRouter');
+const authRouter = require('./routes/authRouter');
+const postRouter = require('./routes/postRouter');
 
 // Middleware
 app.use(express.json());
